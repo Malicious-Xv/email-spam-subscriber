@@ -1,5 +1,3 @@
 ```
-if (isAwesome){
-  return true
-}
+py main.py
 ```
