@@ -31,7 +31,9 @@ def load():
 
     i = 0
     for email in emails:
-        i+=1
+        comment = email.strip()
+        if not comment.startswith("#"):
+            i+=1
 
     print(Fore.GREEN + '> ' + Style.RESET_ALL + f"Loaded {i} emails")
     print()
@@ -42,6 +44,9 @@ def error(e, url):
 load()
 
 for email in emails:
+    comment = email.strip()
+    if comment.startswith("#"):
+        continue
     data1.update({"Email": email})
     data2.update({"email": email})
     data3.update({"email": email})
