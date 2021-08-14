@@ -117,3 +117,94 @@ data3 = {
     ],
     "email": ""
 }
+
+data4 = {
+    "attributes": {},
+    "email": "",
+    "identifiers": {
+    "K1": "otherhealthsystems",
+    "categories": "",
+    "correlationId": "8d8caf89-2f43-498f-b31d-a46354e40227",
+    "source": "Newsletter Listing",
+    "tags": "",
+    },
+    "lists": [
+    "Nutrition",
+    "Wellness Wire",
+    "Women's Wellness",
+    "Men's Health",
+    "Daily News",
+    "Coronavirus Alerts",
+    "Senior Health",
+    "ADHD",
+    "Sleep Challenge",
+    "Gut Check Challenge",
+    "Loneliness Challenge",
+    "Medicare Series - Find the Right Plan",
+    "Move Your Body Challenge",
+    "AFib",
+    "Allergies",
+    "Anxiety",
+    "Bipolar",
+    "COPD",
+    "Depression",
+    "Diabetes Type 2",
+    "Endometriosis",
+    "Fibromyalgia",
+    "Heart Health",
+    "Multiple Sclerosis",
+    "IBD",
+    "Menopause",
+    "Osteoarthritis",
+    "Psoriasis",
+    "Rheumatoid Arthritis",
+    "Migraine",
+    ],
+    "path": "/homepage",
+    "site": "hl"
+}
+
+data5 = {
+    "email": "",
+    "site": "kprc",
+    "subscribes": {
+        "acquisition_method": "sailthru_subscription_page",
+        "acquisition_time": "1628943081",
+        "kprc_0700cst": "1",
+        "kprc_1200cst": "1",
+        "kprc_2000cst": "1",
+        "kprc_askamy": "1",
+        "kprc_astros": "1",
+        "kprc_breaking": "1",
+        "kprc_contests": "1",
+        "kprc_corona": "1",
+        "kprc_crime": "1",
+        "kprc_education": "1",
+        "kprc_elections": "1",
+        "kprc_entertainment": "1",
+        "kprc_frank": "1",
+        "kprc_health": "1",
+        "kprc_houstonlife": "1",
+        "kprc_houstonsportsdaily": "1",
+        "kprc_investigates": "1",
+        "kprc_olympics": "1",
+        "kprc_realestate": "1",
+        "kprc_rodeo": "1",
+        "kprc_somethinggood": "1",
+        "kprc_space": "1",
+        "kprc_supportlocal": "1",
+        "kprc_texans": "1",
+        "kprc_thingstodo": "1",
+        "kprc_traffic": "1",
+        "kprc_weatherDaily": "1",
+        "kprc_wine": "1",
+        "stVar": "null",
+        "subscription_count": "0",
+        "subscriptionformvisit_time": "1628943081"
+    }
+}
+
+data6 = {
+    "email": "",
+    "sub": "e879,e883,e884,e241,e882,e881,e889"
+}
