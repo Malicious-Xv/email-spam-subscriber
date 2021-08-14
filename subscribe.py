@@ -35,7 +35,7 @@ def load():
     print()
 
 def error(e, url):
-    print(Fore.RED, '>' + Style.RESET_ALL + 'Cloudn\'t subscribe ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + url + 'because ' + e.message)
+    print(Fore.RED, '>' + Style.RESET_ALL + 'Cloudn\'t subscribe ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + url + Style.RESET_ALL 'because ' + e.message)
 
 load()
 
