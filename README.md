@@ -12,3 +12,4 @@
 - run `py subscribe.py`
 ### Done!
 You can use [this site](https://temp-mail.org/) for testing.
+I am currently making 1 week spreadsheet about the effectivity of this tool. It will be complete 22.9.2021
