@@ -14,12 +14,12 @@
 
 ### Stats
 
-- Day 1 - 25
-- Day 2 - 54
-- Day 3 - 47
-- Day 4 - 50
-- Day 5 - 48
-- Day 6 - 49
-- Day 7 - 45
+- Day 1 - 25 Emails
+- Day 2 - 54 Emails
+- Day 3 - 47 Emails
+- Day 4 - 50 Emails
+- Day 5 - 48 Emails
+- Day 6 - 49 Emails
+- Day 7 - 45 Emails
 
 - You can use [this site](https://temp-mail.org/) for testing.
