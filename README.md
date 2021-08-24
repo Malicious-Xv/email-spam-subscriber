@@ -11,5 +11,15 @@
 - Put emails you want to subscribe to `emails.txt`
 - run `py subscribe.py`
 ### Done!
+
+### Stats
+
+- Day 1 - 25
+- Day 2 - 54
+- Day 3 - 47
+- Day 4 - 50
+- Day 5 - 48
+- Day 6 - 49
+- Day 7 - 45
+
 - You can use [this site](https://temp-mail.org/) for testing.
-- I am currently making 1 week spreadsheet about the effectivity of this tool. It will be complete 22.8.2021
