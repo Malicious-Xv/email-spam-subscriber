@@ -74,36 +74,48 @@ def main(email):
     try:
         res1 = requests.post('https://www.biblegateway.com/newsletters/subscribe/', data=data1)
         print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'www.biblegateway.com')
+        print(res1)
         sleep(0.25)
     except Exception as e:
         error(e.message, "biblegateway.com")
     try:
         res2 = requests.post('https://www.nbc26.com/account/manage-email-preferences', data=data2)
         print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'www.nbc26.com')
+        print(res2)
         sleep(0.25)
     except Exception as e:
         error(e.message, "nbc26.com")
-    try:
-        res3 = requests.post('https://api.ewscloud.com/prod/notifications/v1/wgba/contactlists/subscribe/', data=data3)
-        print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'ewscloud.com')
-        sleep(0.25)
-    except Exception as e:
-        error(e.message, 'ewscloud.com')
-    try:
-        res4 = requests.post('https://activation.healthline.com/api/activate/site', data=data4)
-        print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'healthline.com')
-        sleep(0.25)
-    except Exception as e:
-        error(e.message, 'healthline.com')
-    try:
-        res5 = requests.post('https://api.click2houston.com/sailthru/sailthru/updatelists/new', data=data5)
-        print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'click2houston.com')
-        sleep(0.25)
-    except Exception as e:
-        error(e.message, 'click2houston.com')
+    #try:
+    #    res3 = requests.post('https://api.ewscloud.com/prod/notifications/v1/wgba/contactlists/subscribe/', data=data3)
+    #    print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'ewscloud.com')
+    #    print(res3)
+    #    sleep(0.25)
+    #except Exception as e:
+    #    error(e.message, 'ewscloud.com')
+    # Needs auth token
+
+    #try:
+    #    res4 = requests.post('https://activation.healthline.com/api/activate/site', data=data4)
+    #    print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'healthline.com')
+    #    print(res4)
+    #    sleep(0.25)
+    #except Exception as e:
+    #    error(e.message, 'healthline.com')
+    # 400 Bad Request
+
+    #try:
+    #    res5 = requests.post('https://api.click2houston.com/sailthru/sailthru/updatelists/new', data=data5)
+    #    print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'click2houston.com')
+    #    print(res5)
+    #    sleep(0.25)
+    #except Exception as e:
+    #    error(e.message, 'click2houston.com')
+    # Needs auth token
+    
     try:
         res6 = requests.post('https://www.cbsnews.com/newsletters/xhr/signup', data=data6)
         print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'cbsnews.com')
+        print(res6)
         sleep(0.25)
     except Exception as e:
         error(e.message, 'cbsnews.com')
