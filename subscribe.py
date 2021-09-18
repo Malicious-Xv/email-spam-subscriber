@@ -74,14 +74,12 @@ def main(email):
     try:
         res1 = requests.post('https://www.biblegateway.com/newsletters/subscribe/', data=data1)
         print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'www.biblegateway.com')
-        print(res1)
         sleep(0.25)
     except Exception as e:
         error(e.message, "biblegateway.com")
     try:
         res2 = requests.post('https://www.nbc26.com/account/manage-email-preferences', data=data2)
         print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'www.nbc26.com')
-        print(res2)
         sleep(0.25)
     except Exception as e:
         error(e.message, "nbc26.com")
@@ -115,7 +113,6 @@ def main(email):
     try:
         res6 = requests.post('https://www.cbsnews.com/newsletters/xhr/signup', data=data6)
         print(Fore.GREEN + '> ' + Style.RESET_ALL + 'Sucessfully subscribed ' + Fore.CYAN + '{} '.format(email) + Style.RESET_ALL + 'to ' + Fore.CYAN + 'cbsnews.com')
-        print(res6)
         sleep(0.25)
     except Exception as e:
         error(e.message, 'cbsnews.com')
